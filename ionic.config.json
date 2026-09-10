@@ -1,0 +1,7 @@
+{
+  "name": "wiki-rick-morty",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
