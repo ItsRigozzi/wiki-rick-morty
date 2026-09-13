@@ -10,6 +10,7 @@ El desarrollo de la aplicación siguió estos pasos principales:
 3. **Manejo de estados:** Se implementó el hook `useState` para gestionar el listado de personajes, el indicador de carga (`cargando`) y el control de errores (`error`).
 4. **Consumo de la API:** Mediante la función `fetch`, se realiza una petición asíncrona al (`https://rickandmortyapi.com/api/character`), extrayendo el arreglo interno de la propiedad `results`.
 5. **Renderizado dinámico:** Se utilizó el método `.map()` para recorrer los datos y renderizar de forma dinámica un componente `<IonCard>` por cada personaje encontrado en la base de datos.
+6. **Modificación visual:** Se cambio el diseño de carga de los personajes y al cargarse los datos aparezcan de manera horizontal.
 
 ## Capturas de Pantalla
 
@@ -17,5 +18,9 @@ El desarrollo de la aplicación siguió estos pasos principales:
    <img width="968" height="345" alt="image" src="https://github.com/user-attachments/assets/86cd4463-da8b-41c9-b64f-a67518b8ea90" />
 
 
-2. **Visualización de los personajes cargados:**
+2. **Visualización de los personajes cargados antes:**
    <img width="666" height="855" alt="image" src="https://github.com/user-attachments/assets/32dd73e2-0793-4e85-982f-a2773ca7a61a" />
+
+   
+3.**Visualización de los personajes cargados despues:**
+   <img width="1894" height="960" alt="image" src="https://github.com/user-attachments/assets/3398e980-59fb-4d0a-8554-568ee667a93b" />
